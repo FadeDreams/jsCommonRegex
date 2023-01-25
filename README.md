@@ -11,7 +11,7 @@ npm install jscommonregex
 ### Usage
 
 ```javascript
-const {
+import {
   IsInt,
   IsPositiveInt,
   IsDecimalNum,
@@ -24,7 +24,7 @@ const {
   IsURL,
   IsIPv4,
   IsIPv6,
-} = require("jscommonregex");
+} from "jscommonregex";
 
 console.log(IsInt(10)); // true
 console.log(IsInt("10")); // false
